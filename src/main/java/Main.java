@@ -21,7 +21,7 @@ public class Main {
                     .setAvailableToBuy(rowCars.get(i).isAvailableToBuy())
                     .build();
 
-            SerializeToFile.serializeAndWriteToFile(car, pathToSaveFiles + rowCars.get(i).getId() + ".txt");
+            SerializeToFile.serializeAndWriteToFile(car, pathToSaveFiles + rowCars.get(i).getId());
         }
     }
 }
